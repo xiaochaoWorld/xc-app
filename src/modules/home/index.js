@@ -11,7 +11,7 @@ export default class Home extends React.Component {
     render() {
         return (
             <div className="home-containner">
-                <div onClick = {this.gotoPage}>这是首页去详情页</div>
+                <div onClick = {this.gotoPage}>任先生您好</div>
                 <div onClick = {this.gotoPageFunc}>这是首页去百度页面</div>
             </div>
         )
