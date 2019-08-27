@@ -3261,7 +3261,7 @@ dotenv-expand@4.2.0:
   resolved "http://172.16.1.179:4873/dotenv-expand/-/dotenv-expand-4.2.0.tgz#def1f1ca5d6059d24a766e587942c21106ce1275"
   integrity sha1-3vHxyl1gWdJKdm5YeULCEQbOEnU=
 
-dotenv@6.2.0:
+dotenv@6.2.0, dotenv@^6.2.0:
   version "6.2.0"
   resolved "http://172.16.1.179:4873/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
   integrity sha1-lBwEEFNdlCyL7PKNPzV9vZ1HYGQ=
@@ -7837,6 +7837,20 @@ react-app-polyfill@^1.0.2:
     regenerator-runtime "0.13.3"
     whatwg-fetch "3.0.0"
 
+react-app-rewire-aliases@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/react-app-rewire-aliases/download/react-app-rewire-aliases-0.2.0.tgz#ef5ffc0099eec05279949fab8d4983c1556a1c1e"
+  integrity sha1-71/8AJnuwFJ5lJ+rjUmDwVVqHB4=
+
+react-app-rewired@^2.1.3:
+  version "2.1.3"
+  resolved "http://172.16.1.179:4873/react-app-rewired/-/react-app-rewired-2.1.3.tgz#5ae8583ecc9f9f968d40b735d2abbe871378a52f"
+  integrity sha1-WuhYPsyfn5aNQLc10qu+hxN4pS8=
+  dependencies:
+    cross-spawn "^6.0.5"
+    dotenv "^6.2.0"
+    semver "^5.6.0"
+
 react-dev-utils@^9.0.3:
   version "9.0.3"
   resolved "http://172.16.1.179:4873/react-dev-utils/-/react-dev-utils-9.0.3.tgz#7607455587abb84599451460eb37cef0b684131a"
@@ -7868,7 +7882,7 @@ react-dev-utils@^9.0.3:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.9.0:
+react-dom@^16.9.0:
   version "16.9.0"
   resolved "http://172.16.1.179:4873/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
   integrity sha1-XmVSel4m8irjcBExvMyu6fsNOWI=
@@ -7949,7 +7963,7 @@ react-scripts@3.1.1:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.9.0:
+react@^16.9.0:
   version "16.9.0"
   resolved "http://172.16.1.179:4873/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
   integrity sha1-QLovmvE7waONddvy9DWaUYXE96o=
