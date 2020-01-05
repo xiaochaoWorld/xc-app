@@ -35,7 +35,7 @@ export const serializeObject = (obj) => {
     if (Object.prototype.toString.call(obj) !== '[object Object]') return obj;
     let resultArray = [],
         separator = '&';
-    for (let prop in obj) {
+    for (var prop in obj) {
         if (Object.prototype.toString.call((obj[prop])) === '[object Array]') {
             let toPush = [];
             for (let i = 0; i < obj[prop].length; i++) {
