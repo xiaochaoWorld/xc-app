@@ -1,5 +1,7 @@
 import React from 'react';
 import { goto } from 'Utils/appFunc';
+import bgtouming from 'Medias/images/bgtouming.png';
+import PEOPLEBG from 'Medias/images/bgpeople.png';
 // import styled, { keyframes } from 'styled-components';
 import './style.scss';
 // 
@@ -35,12 +37,21 @@ export default class Home extends React.Component {
     render() {
         return (
             <div className="home-containner">
-                <ZoomInup>
+
+                <img className='bg-image' src={bgtouming} />
+                <div className='wrap'>
+                    <div className='left'>
+                    </div>
+                    {/* <img className='me' src={PEOPLEBG} /> */}
+                    <div className='right'></div>
+
+                </div>
+                {/* <ZoomInup>
                     <div onClick={this.gotoPage} className="font">welcome to XCworld</div>
                 </ZoomInup>
                 <BounceInLeft>
                     <img src='../../medias/images/me.png'  alt='' className='bgimg' style={{width: '100%', height: '100%'}} />
-                </BounceInLeft>
+                </BounceInLeft> */}
                 {/* <ZoomInup>
                     <div onClick={this.gotoPageFunc}>奥恩阿里</div>
                 </ZoomInup> */}
